@@ -3,9 +3,8 @@
 # 21.09.2018
 
 from sys import argv
-
-import json
 from bottle import *
+import json
 # https://docs.python.org/3/library/urllib.html
 import urllib.request, json
 
