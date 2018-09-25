@@ -1,1 +1,1 @@
-web: python ./apu.py $PORT
+web: python ./app.py $PORT
