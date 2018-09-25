@@ -16,4 +16,4 @@ with urllib.request.urlopen("http://apis.is/currency/m5") as url:
 def index():
     return template('currency',data=data)
 
-bottle.run(host='0.0.0.0', port=argv[1])
+run(host='0.0.0.0', port=argv[1])
